@@ -1,0 +1,11 @@
+<div class="hdr">
+    <span class="logo">Caisse Horizon &middot; PretExpress 2.4</span>
+    <c:if test="${not empty usr}">
+        <span class="nav">
+            <a href="/mbrs">Membres</a>
+            <a href="/dmds">File d'attente</a>
+            <span class="who">${usr.nom} (${usr.role})</span>
+            <a href="/logout">Quitter</a>
+        </span>
+    </c:if>
+</div>

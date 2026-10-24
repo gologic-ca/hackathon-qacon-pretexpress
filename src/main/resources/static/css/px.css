@@ -1,0 +1,25 @@
+body { font-family: Tahoma, Arial, sans-serif; font-size: 13px; margin: 0; background: #eef1f4; color: #222; }
+.hdr { background: #1f4e3d; color: #fff; padding: 10px 16px; overflow: hidden; }
+.logo { font-weight: bold; font-size: 16px; }
+.nav { float: right; }
+.nav a { color: #fff; margin-left: 14px; }
+.who { margin-left: 14px; opacity: .8; }
+.box { background: #fff; margin: 16px; padding: 16px; }
+h2 small { font-weight: normal; color: #777; font-size: 13px; }
+table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+th, td { border: 1px solid #ccd; padding: 6px; text-align: left; }
+th { background: #e3ebe7; }
+table.kv { width: auto; min-width: 420px; }
+table.kv th { width: 180px; }
+.btn { background: #1f4e3d; color: #fff; padding: 5px 12px; text-decoration: none; }
+.tag { background: #36c; color: #fff; font-size: 10px; padding: 1px 4px; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 5px; }
+.dot.ok { background: #2a2; } .dot.ko { background: #c22; }
+.st { padding: 2px 6px; font-size: 11px; background: #ddd; }
+.st-SOU { background: #fe9; } .st-APP { background: #bfb; } .st-REF { background: #fbb; } .st-DEC { background: #bdf; }
+.warn { color: #c00; font-weight: bold; }
+.err { background: #fee; border: 1px solid #c00; padding: 8px; margin-bottom: 10px; }
+.frm label { display: block; margin-top: 10px; font-weight: bold; }
+.frm div { margin-top: 14px; }
+.acts form { display: inline-block; margin-right: 10px; margin-top: 12px; }
+button.ok { background: #2a2; color: #fff; } button.ko { background: #c22; color: #fff; }
